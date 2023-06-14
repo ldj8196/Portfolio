@@ -13,6 +13,7 @@
 
 
 # :books: <a name="outline">개요</a>
+<img src="https://raw.githubusercontent.com/ldj8196/Portfolio/main/src/main/resources/static/DJ/portfolioimage/Mainpage.png">
 >**프로젝트**:항만물류사이트 제작
 >
 >**기획 및 제작** : Team Orca
