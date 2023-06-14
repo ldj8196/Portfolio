@@ -638,61 +638,61 @@ public class OrcaShipSchedule {
     }
 
     // BSR-020419 수성1 화물선
-    @Scheduled(cron = "*/5 * * * * *")
+    // @Scheduled(cron = "*/5 * * * * *")
     public void updateShipPosition2() {
         shiproutine("BSR-020419");
     }
 
     // BSR-040491 수성3 화물선
-    @Scheduled(cron = "*/5 * * * * *")
+    // @Scheduled(cron = "*/5 * * * * *")
     public void updateShipPosition3() {
         shiproutine("BSR-040491");
     }
 
     // BSR-180001 삼표3 화물선
-    @Scheduled(cron = "*/5 * * * * *")
+    // @Scheduled(cron = "*/5 * * * * *")
     public void updateShipPosition4() {
         shiproutine("BSR-180001");
     }
 
     // BSB-922563 세한2호 유조선
-    @Scheduled(cron = "*/5 * * * * *")
+    // @Scheduled(cron = "*/5 * * * * *")
     public void updateShipPosition5() {
         shiproutine("BSB-922563");
     }
 
     // BSR-940415 워터릴리 유조선
-    @Scheduled(cron = "*/5 * * * * *")
+    // @Scheduled(cron = "*/5 * * * * *")
     public void updateShipPosition6() {
         shiproutine("BSR-940415");
     }
 
     // BSR-180025 디엘루비호 부선
-    @Scheduled(cron = "*/5 * * * * *")
+    // @Scheduled(cron = "*/5 * * * * *")
     public void updateShipPosition7() {
         shiproutine("BSR-180025");
     }
 
     // MSB-071211 제103삼일호 부선
-    @Scheduled(cron = "*/5 * * * * *")
+    // @Scheduled(cron = "*/5 * * * * *")
     public void updateShipPosition8() {
         shiproutine("MSB-071211");
     }
 
     // BSR-000025 세한107호 예인선
-    @Scheduled(cron = "*/5 * * * * *")
+    // @Scheduled(cron = "*/5 * * * * *")
     public void updateShipPosition9() {
         shiproutine("BSR-000025");
     }
 
     // BSR-704055 세한108호 예인선
-    @Scheduled(cron = "*/5 * * * * *")
+    // @Scheduled(cron = "*/5 * * * * *")
     public void updateShipPosition10() {
         shiproutine("BSR-704055");
     }
 
     // schedule state 매일 6시 0분 0초
-    @Scheduled(cron = "0 0 6 * * *")    
+    // @Scheduled(cron = "0 0 6 * * *")    
     public void updateScheduleState() {
         LocalDateTime now = LocalDateTime.now();
         String checkDate = now.toString().substring(0, 10);
