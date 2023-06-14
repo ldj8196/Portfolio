@@ -63,3 +63,5 @@
 # :family: <a name="team">팀원소개</a>
 
 # :bookmark_tabs: <a name="function">기능구현</a>
+결제
+<img src="https://raw.githubusercontent.com/ldj8196/Portfolio/main/src/main/resources/static/DJ/portfolioimage/결제.gif">
