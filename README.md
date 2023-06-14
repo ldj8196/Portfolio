@@ -14,6 +14,7 @@
 
 # :books: <a name="outline">개요</a>
 <img src="https://raw.githubusercontent.com/ldj8196/Portfolio/main/src/main/resources/static/DJ/portfolioimage/Mainpage.png">
+
 >**프로젝트**:항만물류사이트 제작
 >
 >**기획 및 제작** : Team Orca
@@ -23,6 +24,7 @@
 >**제작 기간**:2023.05.15 ~ 2023.06.09
 >
 >**담당 기능**:이메일인증, 사업자등록번호 확인, 선박 시뮬레이션, 배송추적, 결제, 목록확인
+
 # :wrench: <a name="tech">기술스택</a>
 <h4>데이터베이스</h4>
 <div align="left">
