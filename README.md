@@ -10,8 +10,8 @@
   - 주문목록확인
   - 결제
   - 배송추적
-- <a href="#result">결론</a>
-- <a href="#result">보완할점</a>
+- :bulb: <a href="#result">결론</a>
+- :mag_right: <a href="#">보완할점</a>
 
 # :books: <a name="outline">개요</a>
 <img src="https://raw.githubusercontent.com/ldj8196/Portfolio/main/src/main/resources/static/DJ/portfolioimage/Mainpage.png">
@@ -66,25 +66,36 @@
 # :bookmark_tabs: <a name="function">기능구현</a>
 **1. 이메일 인증**
 <img src="https://raw.githubusercontent.com/ldj8196/Portfolio/main/src/main/resources/static/DJ/portfolioimage/이메일인증.gif"> <br/><br/>
-- 기능 설명
+- SimpleMailMessage 클래스를 이용하여 메일 내용 설정
+- JavaMailSender를 이용하여 Gmail로 고객에게 인증번호 전송
+- 전송된 인증번호를 입력하여 인증확인
 <br/>
 
 **2. 사업자등록번호 확인**
 <img src="https://raw.githubusercontent.com/ldj8196/Portfolio/main/src/main/resources/static/DJ/portfolioimage/사업자등록번호.gif"> <br/><br/>
-- 기능 설명
+- 공공데이터포럼에서 사업자등록번호 API를 통해 데이터를 받는다.
+- 받은 값(b_stt_cd)을 이용하여 유효성 검사 실시(01:유효한 사업자등록번호)
 <br/>
 
 **3. 주문목록확인**
 <img src="https://raw.githubusercontent.com/ldj8196/Portfolio/main/src/main/resources/static/DJ/portfolioimage/주문상세목록.png"> <br/><br/>
-- 기능 설명
+- RESTful 웹 서비스를 구축하여 RestController로 주문상세목록 객체를 JSON으로 데이터 전송
+- 버튼 클릭시 Modal에서 주문 상세 목록 출력
 <br/>
 
 **4. 결제**
 <img src="https://raw.githubusercontent.com/ldj8196/Portfolio/main/src/main/resources/static/DJ/portfolioimage/결제.gif"> <br/><br/>
-- 기능 설명
+- 아임 포트(Iamport)를 이용한 무료로 서비스되는 결제 연동API 사용
+- 각 종 PG를 이용하여 결제 후 완료시 상품 State 결제완료로 변경 후 
 <br/>
 
 **5. 배송추적**
 <img src="https://raw.githubusercontent.com/ldj8196/Portfolio/main/src/main/resources/static/DJ/portfolioimage/배송조회.gif"> <br/><br/>
-- 기능 설명
+- Scheduler의 크론식을 이용하여 배의 위치를 5초마다 확인
+- Server-Sent-Events이용 선박의 위도와 경도를 Server로 부터 수신받아서 지도에 표시
+- 처음 요청은 버튼을 눌러서 Push 방식, JS setTimeOut으로 3초마다 Pull방식으로 위치 요청
 <br/>
+
+# :bulb: <a name="result">결론</a>
+
+# :mag_right: <a name="fullfill"></a>
