@@ -11,7 +11,7 @@
   - 결제
   - 배송추적
 - :bulb: <a href="#result">결론</a>
-- :mag_right: <a href="#">보완할점</a>
+- :mag_right: <a href="#fullfill">보완할점</a>
 
 # :books: <a name="outline">개요</a>
 <img src="https://raw.githubusercontent.com/ldj8196/Portfolio/main/src/main/resources/static/DJ/portfolioimage/Mainpage.png">
@@ -98,4 +98,4 @@
 
 # :bulb: <a name="result">결론</a>
 
-# :mag_right: <a name="fullfill"></a>
+# :mag_right: <a name="fullfill">보완할점</a>
