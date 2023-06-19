@@ -12,6 +12,7 @@
   - 배송추적
 - :bulb: <a href="#result">결론</a>
 - :mag_right: <a href="#fullfill">보완할점</a>
+- :bookmark: <a href="#url">배포</a>
 
 # :books: <a name="outline">개요</a>
 <img src="https://raw.githubusercontent.com/ldj8196/Portfolio/main/src/main/resources/static/DJ/portfolioimage/Mainpage.png">
@@ -116,3 +117,7 @@
  - 결제 및 취소 버튼이 결제완료 및 취소가 되어도 실행되는 점(유효성 검사)
  - 배송추적 자동으로 운행 중 상태를 만드는 스케줄러 부분이 미흡한 점
  - 주문 상세 목록 확인 디자인을 가시성 있게 못꾸민점
+
+# :bookmark: <a name="url">배포</a>
+<a href="http://13.125.14.162:8080/ROOT2/orca/home.do">Orca Web Page</a>
+- AWS를 이용한 배포
