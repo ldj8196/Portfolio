@@ -1,4 +1,4 @@
-# PORTFOLIO
+# SPRING BOOT PORTFOLIO
 # :clipboard: 목차
 
 - :books: <a href="#outline">개요</a>
@@ -120,4 +120,5 @@
 
 # :bookmark: <a name="url">배포</a>
 <a href="http://13.125.14.162:8080/ROOT2/orca/home.do">Orca Web Page</a>
-- AWS를 이용한 배포
+- AWS를 이용한 배포 <br/>
+<a href="https://www.notion.so/b439a796c02a46fea7ae497cee7b2ea6?v=c962100ea99943608e513bb3e0c5d589">노션링크</a>
